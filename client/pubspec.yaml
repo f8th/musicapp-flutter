@@ -2,7 +2,7 @@ name: client
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.4.4 <4.0.0'
+  sdk: ">=3.4.4 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,10 +31,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.8
   http: ^1.2.2
   fpdart: ^2.0.0-dev.3
   flutter_riverpod: ^2.5.1
@@ -44,13 +43,16 @@ dependencies:
   dotted_border: ^2.1.0
   flex_color_picker: ^3.6.0
   file_picker: ^8.1.2
-  audio_waveforms: ^1.0.5
-  just_audio: ^0.9.41
+  audio_waveforms: ^1.1.1
+  just_audio: ^0.9.42
   hive: ^4.0.0-dev.2
+  # hive: ^2.2.3
   isar_flutter_libs: ^4.0.0-dev.13
   path_provider: ^2.1.0
-  just_audio_background: ^0.0.1-beta.12
+  just_audio_background: ^0.0.1-beta.13
   audio_service: ^0.18.15
+  isar: ^4.0.0-dev.13
+  # isar_flutter_libs: ^3.1.0+1
 
 dev_dependencies:
   flutter_test:
@@ -67,13 +69,11 @@ dev_dependencies:
   riverpod_lint: ^2.3.10
   custom_lint: ^0.6.4
 
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
